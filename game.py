@@ -179,11 +179,13 @@ while (c == 1 and total < 1000):
         total = cut(total)
         day += 1
         print()
-        print(f'Total money: {total}     Day: {day}')
+        print(f'Total money: ${total}     Day: {day}')
         print()
     elif choice == 2:
         store(total)
     elif choice == 3:
+        print()
+        print(f'Total money: ${total}')
         inventory()
     else:
         while choice != 1 and choice != 2 and choice != 3:
